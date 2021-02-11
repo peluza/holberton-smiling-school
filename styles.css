@@ -46,6 +46,36 @@
   min-height: 35rem;
   padding: 15rem 0;
 }
+header#pricing-page,
+header#courses-page {
+  background-image: url(images/pic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header#pricing-page h1 {
+  letter-spacing: 0.1rem;
+}
+
+header#pricing-page svg {
+  fill: #82d24f;
+}
+
+header#pricing-page .logo-words-pricing {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 5px;
+}
+
+.logo-smile {
+  width: auto;
+  height: 30px;
+}
+.logo-words {
+  width: auto;
+  height: 30px;
+}
 
 .container {
   margin-top: 8rem;
@@ -127,4 +157,38 @@
 /* Footer */
 .social {
   fill: white;
+}
+
+/* Form */
+
+.font-coiny {
+  font-family: "Coiny";
+}
+.bg-purple {
+  background-color: #c271ff;
+}
+#keywords {
+  border-left: none;
+}
+#search-filters svg {
+  fill: white;
+}
+input,
+.input-group,
+.input-group-text,
+select {
+  border-radius: 0 !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-color: white !important;
+  background-color: rgb(255, 255, 255, 0.2) !important;
+  color: #efefef !important;
+}
+.input-group-text {
+  position: relative;
+  right: 1px;
+}
+input::placeholder {
+  color: #efefef !important;
 }
