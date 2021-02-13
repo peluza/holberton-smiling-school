@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Coiny&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Smile School - Pricing</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="row">
+      <nav
+        class="navbar px-md-5 py-md-4 navbar-expand-lg navbar-dark fixed-top"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <a class="navbar-brand mx-auto" href="#">
+          <img
+            class="smile-face d-block mx-auto"
+            src="images/smile_off.png"
+            alt="smile-face"
+          />
+          <img
+            class="logo-text d-block mx-auto"
+            src="images/logo.png"
+            alt="logo-text"
+          />
+        </a>
+        <div class="collapse navbar-collapse mr-md-5" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item mx-sm-auto mx-md-auto mr-lg-5">
+              <a class="nav-link text-white font-weight-bold" href="#"
+                >COURSES</a
+              >
+            </li>
+            <li class="nav-item mx-sm-auto mx-md-auto mr-lg-5">
+              <a class="nav-link text-white font-weight-bold" href="#"
+                >PRICING</a
+              >
+            </li>
+            <li class="nav-item mx-sm-auto mx-md-auto mr-lg-5">
+              <a class="nav-link text-white font-weight-bold" href="#">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- header section -->
+    <header id="courses-page" class="container-fluid p-4">
+      <div
+        class="container hero-content d-flex justify-content-center flex-wrap pb-5"
+      >
+        <h1 class="h2 text-light text-center font-coiny w-100">
+          « Don’t cry because it’s over.
+        </h1>
+        <h1 class="h2 text-light text-center font-coiny w-100">
+          <span class="learn font-coiny">Smile</span>
+          because it happened. »
+        </h1>
+      </div>
+    </header>
+    <main>
+      <!-- form -->
+      <div class="container-fluid p-0 bg-purple m-0" id="search-filters">
+        <div
+          class="container py-4 text-white text-uppercase font-weight-bold mt-0 mb-0 ml-auto mr-auto"
+        >
+          <form>
+            <div class="row">
+              <div class="col-md-12 col-lg-4 form-group">
+                <label for="keywords" class="d-block">Keywords</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text bg-white">
+                      <svg
+                        width="20"
+                        height="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                      >
+                        <path
+                          d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <input
+                    type="text"
+                    id="keywords"
+                    placeholder="Search by keywords"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 form-group">
+                <label for="topic" class="d-block">Topic</label>
+                <div class="input-group mb-2">
+                  <select name="topic" id="topic" class="form-control">
+                    <option value="novice">Novice</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 form-group">
+                <label for="sort-by" class="d-block">Sort By</label>
+                <div class="input-group mb-2">
+                  <select name="sort-by" id="sort-by" class="form-control">
+                    <option value="popular">Most Popular</option>
+                    <option value="recent">Most Recent</option>
+                    <option value="viewed">Most Viewed</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
