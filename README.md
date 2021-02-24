@@ -72,4 +72,4 @@ For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
 
 ## Author
 
-- **Kimberly Hinostroza** - [kimha1030](https://github.com/kimha1030)
+- **Edison Isaza** - [peluza](https://github.com/peluza)
